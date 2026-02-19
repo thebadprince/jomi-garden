@@ -23,34 +23,46 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Boldonse",
+        body: "Public Sans",
         code: "IBM Plex Mono",
       },
       colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
+  lightMode: {
+    // Background + surfaces
+    light: "#FEFCFB",        // page background
+    lightgray: "#E9EEF2",    // subtle borders / cards
+    gray: "#A9B7C3",         // muted UI text
+    darkgray: "#034078",     // headings / strong UI text
+    dark: "#0A1128",         // main body text
+
+    // Accents
+    secondary: "#1282A2",    // links / primary accent
+    tertiary: "#034078",     // secondary accent (hover / visited / subtle emphasis)
+
+    // Highlights
+    highlight: "rgba(18, 130, 162, 0.12)",   // soft blue wash
+    textHighlight: "rgba(255, 242, 54, 0.45)", // keep your existing yellow-ish highlight vibe
+  },
+
+  darkMode: {
+    // Background + surfaces
+    light: "#0A1128",        // page background
+    lightgray: "#001F54",    // surfaces / borders
+    gray: "#6F89A3",         // muted UI text (blue-gray that fits palette)
+    darkgray: "#DDE6EE",     // headings / bright UI text
+    dark: "#FEFCFB",         // main body text
+
+    // Accents
+    secondary: "#1282A2",    // links / primary accent
+    tertiary: "#034078",     // secondary accent (used sparingly on dark)
+
+    // Highlights
+    highlight: "rgba(18, 130, 162, 0.18)",
+    textHighlight: "rgba(255, 242, 54, 0.30)",
+  },
+},
+
     },
   },
   plugins: {
