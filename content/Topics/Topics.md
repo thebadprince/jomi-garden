@@ -1,4 +1,3 @@
-
 - [[Design Leadership]]
 - [[Writing]]
 - [[Systems]]

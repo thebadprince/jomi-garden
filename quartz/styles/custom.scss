@@ -1,0 +1,26 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+
+/* Homepage only: hide the little line under the title (date + read time) */
+body[data-slug="index"] header .meta,
+body[data-slug="index"] header .page-metadata,
+body[data-slug="index"] .page-header .meta,
+body[data-slug="index"] .page-header .page-metadata,
+body[data-slug="index"] time,
+body[data-slug="index"] .reading-time {
+  display: none !important;
+}
+
+/* Homepage only: hide the "1 min read" line */
+body[data-slug="index"] .content-meta {
+  display: none !important;
+}
+
+/* Hide the Quartz credits footer */
+footer,
+.footer,
+#footer {
+  display: none !important;
+}
+

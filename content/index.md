@@ -1,3 +1,7 @@
-# Jomi’s Digital Garden
+---
+title: Welcome
+---
+This is my digital garden. 
 
-Welcome. Start here: [[Start Here]]
+- [[Start Here]] for quick links.
+- [[Now]] for what I'm currently up to.
