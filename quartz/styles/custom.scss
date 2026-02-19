@@ -1,5 +1,0 @@
-/* Hide date + reading time ONLY on the homepage */
-body[data-slug="index"] .page-metadata,
-body[data-slug="index"] .reading-time {
-  display: none !important;
-}
