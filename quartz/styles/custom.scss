@@ -1,3 +1,6 @@
-@use "./base.scss";
-
-// put your custom CSS here!
+/* Hide date + reading time ONLY on the homepage (index.md) */
+body[data-slug="index"] .page-metadata,
+body[data-slug="index"] .reading-time,
+body[data-slug="index"] .page-title + .page-metadata {
+  display: none !important;
+}
